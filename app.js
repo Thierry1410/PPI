@@ -11,6 +11,7 @@ const ponto_de_fusao = document.querySelector('#ponto_de_fusao');
 const img = document.getElementsByClassName(".image is-4by4");
 
 
+
 /*  
 
 
@@ -109,7 +110,7 @@ H.addEventListener("click", function() {
     numero_atomico.insertAdjacentText("afterbegin", element_1.numero_atomico);
     distr.insertAdjacentHTML("afterbegin", element_1.de);
     nome_do_elemento.insertAdjacentText("afterbegin", element_1.nome);
-    img.insertAdjacentHTML("afterbegin", `<img src="${element_1.img}">`);
+    adicionarImagem(element_1);
 
 
 })
@@ -168,4 +169,12 @@ var ClearTable = function() {
     numero_atomico.innerHTML = "";
     distr.innerHTML = "";
     nome_do_elemento.innerHTML = "";
+}
+
+var adicionarImagem = function(element) {
+    var img = document.createElement("IMG");
+    img.src = element.img;
+    img.style.width = "255px";
+    img.style.height = "255px";
+    document.getElementById('imagem-tabela').appendChild(img);
 }
