@@ -99,6 +99,16 @@ var element_4 = {
 H.addEventListener("click", function() {
     FazerTudo(element_1);
 })
+He.addEventListener("click", function() {
+    FazerTudo(element_2);
+})
+Li.addEventListener("click", function() {
+    FazerTudo(element_3);
+})
+Be.addEventListener("click", function() {
+    FazerTudo(element_4);
+})
+
 
 var ClearTable = function() {
     aparencia.innerHTML = "";
