@@ -10,6 +10,9 @@ const ponto_de_fusao = document.querySelector('#ponto_de_fusao')
 
 /*  
 
+
+tudo que está entre chaves [] é para substituir!!!!
+
 Passo 1:
 
 const (Simbolo do elemento) = document.querySelector("#element_[numero do elemento]");
