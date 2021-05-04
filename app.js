@@ -28,7 +28,21 @@ var element_1 = {
 }
 
 Passo 3:
+    [simbolo_do_elemento].addEventListener("click", function() {
 
+    detalhes.classList.remove("n-display");
+    ClearTable()
+    aparencia.insertAdjacentText("afterbegin", element_[n-elemento].aparencia);
+    massa_atomica.insertAdjacentText("afterbegin", element_[n-elemento].massa_atomica);
+    ponto_de_fusao.insertAdjacentText("afterbegin", element_[n-elemento].ponto_de_fusao);
+    ponto_de_ebulicao.insertAdjacentText("afterbegin", element_[n-elemento].ponto_de_ebulicao);
+    numero_atomico.insertAdjacentText("afterbegin", element_[n-elemento].numero_atomico);
+    distr.insertAdjacentHTML("afterbegin", element_[n-elemento].de);
+    nome_do_elemento.insertAdjacentText("afterbegin", element_[n-elemento].nome);
+
+
+
+})
 */
 var element_1 = {
     nome: "Hidrogênio",
