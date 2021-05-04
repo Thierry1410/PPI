@@ -1,6 +1,7 @@
 const H = document.querySelector("#element_1");
 const He = document.querySelector("#element_2");
 const Li = document.querySelector("#element_3");
+const Be = document.querySelector("#element_4");
 
 const detalhes = document.querySelector("#detalhes");
 const distr = document.querySelector(".subtitle");
@@ -77,6 +78,17 @@ var element_3 = {
     aparencia: "Gás inc323olor (na CNTP)"
 }
 
+var element_4 = {
+    nome: "Berílio",                         //nome do elemento
+    numero_atomico: 4,                          //número do elemento
+    massa_atomica: "9,012182",                    //massa atomica dentro de aspas, e com , 
+    ponto_de_fusao: "1560 K (1286,85°C)",      //Temperatura em Kelvin e dps em Celsius
+    ponto_de_ebulicao: "2754 K (2480,85°C)",   //Temperatura em Kelvin e dps em Celsius
+    de: "1s<sup>2</sup>2s<sup>2</sup>",                       //<sup>número</sup> para colocar o numero superescrito
+    aparencia: "Sólido, Cinza Metálico"                     // aparencia na CNTP
+
+
+}
 
 
 
@@ -128,7 +140,21 @@ Li.addEventListener("click", function() {
 
 
 })
+Be.addEventListener("click", function() {
 
+    detalhes.classList.remove("n-display");
+    ClearTable()
+    aparencia.insertAdjacentText("afterbegin", element_4.aparencia);
+    massa_atomica.insertAdjacentText("afterbegin", element_4.massa_atomica);
+    ponto_de_fusao.insertAdjacentText("afterbegin", element_4.ponto_de_fusao);
+    ponto_de_ebulicao.insertAdjacentText("afterbegin", element_4.ponto_de_ebulicao);
+    numero_atomico.insertAdjacentText("afterbegin", element_4.numero_atomico);
+    distr.insertAdjacentHTML("afterbegin", element_4.de);
+    nome_do_elemento.insertAdjacentText("afterbegin", element_4.nome);
+
+
+
+})
 var ClearTable = function() {
     aparencia.innerHTML = "";
     massa_atomica.innerHTML = "";
