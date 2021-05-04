@@ -2,6 +2,8 @@ const H = document.querySelector("#element_1");
 const He = document.querySelector("#element_2");
 const Li = document.querySelector("#element_3");
 const Be = document.querySelector("#element_4");
+const B = document.querySelector("#element_5");
+
 
 const detalhes = document.querySelector("#detalhes");
 const distr = document.querySelector(".subtitle");
@@ -78,7 +80,7 @@ var element_3 = {
     massa_atomica: "6,941",
     ponto_de_fusao: "0)",
     ponto_de_ebulicao: "203123,28 K (-312387°C)",
-    de: "1s<sup>231231</sup>",
+    de: "1s<sup>2</sup>2s<sup>2",
     aparencia: "Gás inc323olor (na CNTP)",
     img: "/Imgs/Tabela/Lítio.png"
 }
@@ -92,6 +94,20 @@ var element_4 = {
     de: "1s<sup>2</sup>2s<sup>2</sup>", //<sup>número</sup> para colocar o numero superescrito
     aparencia: "Sólido, Cinza Metálico", // aparencia na CNTP
     img: "/Imgs/Tabela/Berílio.png"
+
+}
+var element_5 = {
+    nome: "Boro",
+    numero_atomico: 5,
+    massa_atomica: "18,8",
+    ponto_de_fusao: "2348 K (2704,85°C)",
+    ponto_de_ebulicao: "4273 K (3999,85°C)",
+    de: "1s<sup>2</sup>2s<sup>2</sup>2p<sup>1</sup>",
+    aparencia: "Sólido, Marrom/Preto",
+    img: "/Imgs/Tabela/Boro.png"
+
+
+
 
 }
 
@@ -108,7 +124,9 @@ Li.addEventListener("click", function() {
 Be.addEventListener("click", function() {
     FazerTudo(element_4);
 })
-
+B.addEventListener("click", function() {
+    FazerTudo(element_5);
+})
 
 var ClearTable = function() {
     aparencia.innerHTML = "";
@@ -118,6 +136,7 @@ var ClearTable = function() {
     numero_atomico.innerHTML = "";
     distr.innerHTML = "";
     nome_do_elemento.innerHTML = "";
+    document.getElementById('imagem-tabela').innerHTML = "";
 }
 
 var FazerTudo = function(element) {
