@@ -8,6 +8,28 @@ const aparencia = document.querySelector('#aparencia');
 const nome_do_elemento = document.querySelector('.title');
 const ponto_de_fusao = document.querySelector('#ponto_de_fusao')
 
+/*  
+
+Passo 1:
+
+const (Simbolo do elemento) = document.querySelector("#element_[numero do elemento]");
+
+Passo 2: 
+var element_1 = {
+    nome: "Hidrogênio",                         //nome do elemento
+    numero_atomico: 1,                          //número do elemento
+    massa_atomica: "1.0008",                    //massa atomica dentro de aspas, e com , 
+    ponto_de_fusao: "14,025 K (-259,2°C)",      //Temperatura em Kelvin e dps em Celsius
+    ponto_de_ebulicao: "20,28 K (-252,87°C)",   //Temperatura em Kelvin e dps em Celsius
+    de: "1s<sup>1</sup>",                       //<sup>número</sup> para colocar o numero superescrito
+    aparencia: "(nas CNTP)"                     // aparencia na CNTP
+
+
+}
+
+Passo 3:
+
+*/
 var element_1 = {
     nome: "Hidrogênio",
     numero_atomico: 1,
@@ -19,13 +41,13 @@ var element_1 = {
 }
 
 var element_2 = {
-    nome: "Hélio", // eu sou muito lindo uiuiui 
-    numero_atomico: 2, //Thierry uiuiui
+    nome: "Hélio",
+    numero_atomico: 2,
     massa_atomica: "4,002602",
     ponto_de_fusao: "0,95 K (-272.2)",
     ponto_de_ebulicao: "4,22 K (-268,93",
     de: "1s<sup>2</sup>", //  <sup>número</sup>
-    aparencia: "Gás incolor (nas CNTP)"
+    aparencia: "Gás incolor (nas CNTP)" //no caso de gás, coloque que está na CNTP
 }
 
 var element_3 = {
