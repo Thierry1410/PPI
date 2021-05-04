@@ -19,8 +19,8 @@ var element_1 = {
 }
 
 var element_2 = {
-    nome: "Hélio",//Nícolas uiuiui 
-    numero_atomico: 2,
+    nome: "Hélio", //Nícolas uiuiui 
+    numero_atomico: 2, //Thierry uiuiui
     massa_atomica: "4,002602",
     ponto_de_fusao: "0,95 K (-272.2)",
     ponto_de_ebulicao: "4,22 K (-268,93",
