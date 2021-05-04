@@ -126,7 +126,7 @@ He.addEventListener("click", function() {
     numero_atomico.insertAdjacentText("afterbegin", element_2.numero_atomico);
     distr.insertAdjacentHTML("afterbegin", element_2.de);
     nome_do_elemento.insertAdjacentText("afterbegin", element_2.nome);
-
+    adicionarImagem(element_2);
 
 
 })
@@ -142,7 +142,7 @@ Li.addEventListener("click", function() {
     numero_atomico.insertAdjacentText("afterbegin", element_3.numero_atomico);
     distr.insertAdjacentHTML("afterbegin", element_3.de);
     nome_do_elemento.insertAdjacentText("afterbegin", element_3.nome);
-
+    adicionarImagem(element_3);
 
 
 })
@@ -157,7 +157,7 @@ Be.addEventListener("click", function() {
     numero_atomico.insertAdjacentText("afterbegin", element_4.numero_atomico);
     distr.insertAdjacentHTML("afterbegin", element_4.de);
     nome_do_elemento.insertAdjacentText("afterbegin", element_4.nome);
-
+    adicionarImagem(element_4);
 
 
 })
