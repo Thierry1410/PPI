@@ -102,13 +102,6 @@
     margin-top: 4px
 }
 
-_details {
-    float: left;
-    width: 104px;
-    height: 100%;
-    position: relative
-}
-
 .element_symbol {
     font-size: 38px;
     line-height: 1;
@@ -118,30 +111,6 @@ _details {
 .symbol_name {
     font-size: 12px;
     padding-top: 2px
-}
-
-_details_2 {
-    text-align: center;
-    padding-top: 8px;
-    font-size: 13px;
-    color: #000
-}
-
-_details_1,
-_details_3 {
-    position: absolute;
-    bottom: 0;
-    height: 30px;
-    line-height: 30px;
-    font-size: 13px
-}
-
-_details_1 {
-    left: 0;
-    color: #fff;
-    text-align: center;
-    width: 33px;
-    font-weight: 700
 }
 
 .element,
