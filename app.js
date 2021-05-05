@@ -18,6 +18,12 @@ const ano_descoberta = document.getElementById("ano_descoberta")
 const amostra_texto = document.getElementById("amostra-texto")
 
 /*  
+passo 1:
+
+const [simbolo elemento] = document.querySelector("#element_[x]")
+
+passo 2:
+
 
 
 
