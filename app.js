@@ -22,7 +22,24 @@ passo 1:
 
 const [simbolo elemento] = document.querySelector("#element_[x]")
 
+
+
+
 passo 2:
+var element_1 = {
+    nome: "[nome do elemento]",
+    massa_atomica: "[massa atomica com 4 casas decimais]",
+    ponto_de_fusao: "[temperatura K com 2 casas decimais (temperatura com até duas casas °C)]", 
+    ponto_de_ebulicao: "[temperatura K com 2 casas decimais (temperatura com até duas casas °C)]",
+    de: "[distribuição eletronica]" (atenção) usar <sup>número</sup> pra colocar um numero superescrito
+    aparencia: "[aparencia, se for gás, incluir (na CNTP)]",
+    img_atom: "C:/Users/Thierry/Documents/GitHub/PPI/Imgs/Atomo/H.png",
+    serie_quimica: "[grupo do elemento]",
+    eletronegatividade: "[eletroneagtividade dele]",
+    ano_descoberta: "[ano de descoberta]",
+    amostra_texto: "<p>[texto breve]</p>"
+
+}
 
 
 
